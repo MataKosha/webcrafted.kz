@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     whatsappForm.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        const phoneNumber = "77067067172";
+        const phoneNumber = "77474941621";
 
         const name = document.getElementById('name').value.trim();
         const service = document.getElementById('service').value;
