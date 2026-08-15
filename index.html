@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCrafted.kz — Telegram-боты и Веб-сайты на коде в Казахстане</title>
+    <meta name="description" content="Разработка быстрых Telegram-ботов и сайтов без конструкторов и ежемесячных плат. Работаем по всему Казахстану.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">WebCrafted<span>.kz</span></a>
+            
+            <nav class="nav" id="navMenu">
+                <a href="#services">Тарифы</a>
+                <a href="#cases">Кейсы</a>
+                <a href="#advantages">Плюсы</a>
+                <a href="#process">Этапы</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact" class="btn btn-sm btn-primary">Заказать</a>
+            </nav>
+
+            <button class="burger" id="burgerBtn" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="glow-bg"></div>
+        <div class="container hero-content">
+            <div class="badge">🔥 Разработка на чистом коде без конструкторов</div>
+            <h1>Автоматизация бизнеса и IT-решения под ключ</h1>
+            <p class="hero-sub">Создаем Telegram-ботов, Mini Apps и веб-сайты, которые работают 24/7, не требуют ежемесячной подписки и моментально передают заявки в Google Таблицы и WhatsApp.</p>
+            
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Рассчитать стоимость</a>
+                <a href="#cases" class="btn btn-outline">Смотреть работы</a>
+            </div>
+
+            <!-- Цифры -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-num">2-4 дня</span>
+                    <span class="stat-label">Средний срок сдачи</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num">0 ₸</span>
+                    <span class="stat-label">Комиссий за платную Tilda/Wix</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-label">Гарантия работы без банов</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги и Тарифы -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Тарифы и готовые решения</h2>
+            <p class="section-sub">Прозрачные цены без скрытых платежей</p>
+
+            <div class="grid pricing-grid">
+                <div class="card pricing-card">
+                    <div class="card-badge">Популярно</div>
+                    <h3>Telegram-бот</h3>
+                    <p class="price">от 30 000 ₸</p>
+                    <ul class="price-list">
+                        <li>Запись на прием/услуги</li>
+                        <li>Интеграция с Google Таблицами</li>
+                        <li>Уведомления админу в Telegram</li>
+                        <li>Интерактивное меню с кнопками</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary select-service" data-service="Telegram-бот">Выбрать тариф</a>
+                </div>
+
+                <div class="card pricing-card featured">
+                    <div class="card-badge highlight">Хит продаж</div>
+                    <h3>Веб-сайт / Лендинг</h3>
+                    <p class="price">от 45 000 ₸</p>
+                    <ul class="price-list">
+                        <li>Чистый HTML/CSS/JS (скорость 99/100)</li>
+                        <li>Адаптация под все телефоны</li>
+                        <li>SEO-подготовка под Google</li>
+                        <li>Прямая отправка заявок в WhatsApp</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary select-service" data-service="Веб-сайт">Выбрать тариф</a>
+                </div>
+
+                <div class="card pricing-card">
+                    <div class="card-badge">Комбо</div>
+                    <h3>Бот + Сайт</h3>
+                    <p class="price">от 65 000 ₸</p>
+                    <ul class="price-list">
+                        <li>Полноценный сайт-визитка</li>
+                        <li>Telegram-бот управления</li>
+                        <li>Общая система учета клиентов</li>
+                        <li>Максимальная конверсия</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary select-service" data-service="Бот + Сайт">Выбрать тариф</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Кейсы / Примеры -->
+    <section id="cases" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Примеры разработанных систем</h2>
+            <div class="grid cases-grid">
+                <div class="card case-card">
+                    <div class="case-tag">Бот для автостудии</div>
+                    <h4>Запись на детейлинг и оклейку</h4>
+                    <p>Бот запрашивает марку авто, услугу, контактный номер и автоматически заносит клиента в реестр записей.</p>
+                </div>
+                <div class="card case-card">
+                    <div class="case-tag">Бот + Таблицы</div>
+                    <h4>Анкетирование и пробное занятие</h4>
+                    <p>Бот со структурой «О нас» (соцсети, цены, тренеры) и приемом заявок на пробный урок с выгрузкой в Google Sheets.</p>
+                </div>
+                <div class="card case-card">
+                    <div class="case-tag">Лендинг на коде</div>
+                    <h4>Сайт услуг по Казахстану</h4>
+                    <p>Легкий сайт с высокой конверсией, перенаправляющий готовый сформированный диалог с именем и задачей прямо в WhatsApp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="advantages" class="section">
+        <div class="container">
+            <h2 class="section-title">Почему собственная разработка лучше</h2>
+            <div class="grid adv-grid">
+                <div class="adv-box">
+                    <div class="adv-icon">🚀</div>
+                    <h4>Скорость загрузки</h4>
+                    <p>Сайты на чистом коде открываются мгновенно даже при слабом мобильном интернете.</p>
+                </div>
+                <div class="adv-box">
+                    <div class="adv-icon">💎</div>
+                    <h4>Единоразовая оплата</h4>
+                    <p>Вы владеете кодом. Нет постоянной абонентской платы, как на конструкторах.</p>
+                </div>
+                <div class="adv-box">
+                    <div class="adv-icon">🛡️</div>
+                    <h4>Стабильность и защита</h4>
+                    <p>Используем только официальные API без серых схем и риска блокировки каналов связи.</p>
+                </div>
+                <div class="adv-box">
+                    <div class="adv-icon">🇰🇿</div>
+                    <h4>Вся географическая зона KAZ</h4>
+                    <p>Настройка процессов под клиентов из Астаны, Алматы, Шымкента и любого другого региона.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Этапы работы -->
+    <section id="process" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">4 простых шага до запуска</h2>
+            <div class="steps-timeline">
+                <div class="step-card">
+                    <span class="step-idx">01</span>
+                    <h4>Заявка и ТЗ</h4>
+                    <p>Обсуждаем задачи, утверждаем функционал и структуру.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-idx">02</span>
+                    <h4>Предоплата 50%</h4>
+                    <p>Фиксируем договоренности и сразу начинаем разработку.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-idx">03</span>
+                    <h4>Тест и Показ</h4>
+                    <p>Вы тестируете готовую систему на тестовом сервере.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-idx">04</span>
+                    <h4>Запуск и Расчет</h4>
+                    <p>Передаем все права, подключаем домен и получаете рабочий инструмент.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title">Часто задаваемые вопросы</h2>
+            <div class="faq-container">
+                <details class="faq-accordion">
+                    <summary>Нужно ли платить за сайт каждый месяц?</summary>
+                    <p>Нет. Единственное, что оплачивается раз в год — это доменное имя (~3 000–5 000 ₸). Хостинг для статических сайтов бесплатный.</p>
+                </details>
+                <details class="faq-accordion">
+                    <summary>Почему Telegram-бот лучше WhatsApp-бота?</summary>
+                    <p>В Telegram официальный API бесплатный, бот не забанится, а интерфейс поддерживает удобные меню и кнопки. В WhatsApp за каждое сообщение берется платная подписка.</p>
+                </details>
+                <details class="faq-accordion">
+                    <summary>Как получать заявки с сайта?</summary>
+                    <p>Заявка с сайта перенаправляет клиента сразу в ваш WhatsApp с готовым, отформатированным текстом анкеты.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма обращения -->
+    <section id="contact" class="section bg-alt">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Оставить заявку на разработку</h2>
+                <p>Заполните форму, и диалог открывается прямо в вашем WhatsApp</p>
+                
+                <form id="whatsappForm">
+                    <div class="input-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Как к вам обращаться?" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="service">Услуга</label>
+                        <select id="service">
+                            <option value="Telegram-бот">Telegram-бот (от 30 000 ₸)</option>
+                            <option value="Веб-сайт">Веб-сайт / Лендинг (от 45 000 ₸)</option>
+                            <option value="Бот + Сайт">Комплекс: Бот + Сайт (от 65 000 ₸)</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="details">Описание задачи / Ссылка на пример</label>
+                        <textarea id="details" rows="3" placeholder="Расскажите кратко о вашей сфере деятельности..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Отправить в WhatsApp 💬</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-flex">
+            <p>© WebCrafted.kz — Разработка IT-решений по всему Казахстану.</p>
+            <p>Астана • Алматы • Шымкент</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
